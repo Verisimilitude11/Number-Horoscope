@@ -1,14 +1,8 @@
-"""
-LESSON: 1.3 - Expressions
-EXERCISE: Number Horoscope
-"""
-
 #### ---- INPUT ---- ####
 
 # Get INPUT asking how many letters are in their first
 # name, then ASSIGN to first_name
 # (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 first_name = int(input("How many letters are in your first name? "))
 
 # Get INPUT asking how many letters are in their last
@@ -21,7 +15,6 @@ last_name = int(input("How many letters are in your last name?"))
 # Get INPUT asking how many letters are in their first
 # name, then ASSIGN to first_name
 # (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 first_name = int(input("How many letters are in your first name? "))
 
 # Get INPUT asking how many letters are in their last
@@ -36,7 +29,6 @@ month = int(input("What month were you born in? (January = 1) "))
 
 # Get INPUT asking what day of the month they were born
 # on, then ASSIGN to day (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 day = int(input("What day were you born in? "))
 
 # PRINT a blank line
@@ -48,7 +40,6 @@ print("Your fortune:")
 #### ---- LOVE CALCULATION ---- ####
 
 # ADD first_name and last_name, then ASSIGN to sum1
-# ---> TEST AFTER THIS LINE <--- #
 sum1 = first_name + last_name
 
 # ADD month and day variables, then ASSIGN to sum2
@@ -60,7 +51,6 @@ love = sum1 * sum2
 # PRINT "It will be " CONCATENATED with love variable,
 # CONCATENATED with " days until you fall in love."
 # (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 print("It will be " + str(love) + " days until you fall in love.")
 
 
@@ -70,7 +60,6 @@ print("It will be " + str(love) + " days until you fall in love.")
 total = 0
 
 # INCREMENT total by first_name
-# ---> TEST AFTER THIS LINE <--- #
 total += first_name
 
 # INCREMENT total by last_name
@@ -83,17 +72,14 @@ total += month
 total += day
 
 # ADD together month and day again, ASSIGN to total2
-# ---> TEST AFTER THIS LINE <--- #
 total2 = month + day
 
 # Get MODULUS of total and total2, ASSIGN to event
-# ---> TEST AFTER THIS LINE <--- #
 event = total % total2
 
 # PRINT "In " CONCATENATED with event, CONCATENATED
 # with " days, an important event will happen in
 # your life." (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 print("In " + str(event) + " days, an important event will happen in your life.")
 
 
@@ -105,7 +91,6 @@ unlucky = month - first_name
 
 # PRINT "Stay away from the number " CONCATENATED with
 # the variable unlucky (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 print("Stay away from the number " + str(unlucky))
 
 
@@ -119,7 +104,6 @@ month = int(input("What month were you born in? (January = 1) "))
 
 # Get INPUT asking what day of the month they were born
 # on, then ASSIGN to day (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 day = int(input("What day were you born in? "))
 
 # PRINT a blank line
@@ -131,7 +115,6 @@ print("Your fortune:")
 #### ---- LOVE CALCULATION ---- ####
 
 # ADD first_name and last_name, then ASSIGN to sum1
-# ---> TEST AFTER THIS LINE <--- #
 sum1 = first_name + last_name
 
 # ADD month and day variables, then ASSIGN to sum2
@@ -143,7 +126,6 @@ love = sum1 * sum2
 # PRINT "It will be " CONCATENATED with love variable,
 # CONCATENATED with " days until you fall in love."
 # (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 print("It will be " + str(love) + " days until you fall in love.")
 
 
@@ -153,7 +135,6 @@ print("It will be " + str(love) + " days until you fall in love.")
 total = 0
 
 # INCREMENT total by first_name
-# ---> TEST AFTER THIS LINE <--- #
 total += first_name
 
 # INCREMENT total by last_name
@@ -166,17 +147,14 @@ total += month
 total += day
 
 # ADD together month and day again, ASSIGN to total2
-# ---> TEST AFTER THIS LINE <--- #
 total2 = month + day
 
 # Get MODULUS of total and total2, ASSIGN to event
-# ---> TEST AFTER THIS LINE <--- #
 event = total % total2
 
 # PRINT "In " CONCATENATED with event, CONCATENATED
 # with " days, an important event will happen in
 # your life." (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 print("In " + str(event) + " days, an important event will happen in your life.")
 
 
@@ -188,9 +166,4 @@ unlucky = month - first_name
 
 # PRINT "Stay away from the number " CONCATENATED with
 # the variable unlucky (Hint: TYPECAST)
-# ---> TEST AFTER THIS LINE <--- #
 print("Stay away from the number " + str(unlucky))
-
-
-# Turn in your Coding Exercise.
-
